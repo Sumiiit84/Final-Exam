@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>palindrome</title>
+
+</head>
+<body>
+
+<script>
+
+function isNumberPalindrome(number) {
+    // Convert the number to a string
+    let str = number.toString();
+    
+    // Reverse the string
+    let reverseStr = str.split('').reverse().join('');
+    
+    // Check if the original string is equal to the reversed string
+    return str === reverseStr;
+}
+
+// Example usage:
+let number = prompt("Enter a number:");
+if (isNumberPalindrome(number)) {
+   alert("The number is a palindrome.");
+} else {
+    alert("The number is not a palindrome.");
+}
+
+
+</script>
+</body>
+</html>

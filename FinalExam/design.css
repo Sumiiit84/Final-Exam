@@ -1,0 +1,27 @@
+*{
+background-color: blue;
+}
+h1{
+font-size: 400px;
+color: red;
+}
+.f1{
+color:white;
+font-family: arial;
+}
+.f2{
+color:yellow;
+font-family: sans-serif;
+}
+.f3{
+color: red;
+font-family: arial;
+}
+.f4{
+color:pink;
+font-style: sans-serif;
+}
+.f5{
+color: orange;
+font-style: arial;
+}
